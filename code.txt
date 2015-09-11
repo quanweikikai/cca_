@@ -1,0 +1,9 @@
+from PPCCA import *
+from calcAcc import *
+a,b,c=main()
+e=turnArr(a[-1])
+accuracyRate(b,e)
+plotData(c,b)
+
+
+
